@@ -1,0 +1,10 @@
+*{
+	font-family: Times ,serif;
+    font-size: 16px;	}
+.c1 {
+    display: inline-block;
+    background-color:aquamarine;
+    margin: 15px;
+    height: 70px;
+    width: 150px;
+}

@@ -1,0 +1,18 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto auto;
+    justify-content: center;
+	font-family: Times, serif;
+}
+
+.content {
+	height: fit-content;
+    grid-column: 2;
+	margin: 5px;
+}
+.c2{
+	margin-top: 15px;
+	padding: 50px;
+	border: 10px solid blue;
+	}

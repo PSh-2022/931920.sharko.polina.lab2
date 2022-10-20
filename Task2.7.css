@@ -1,0 +1,47 @@
+*{color: white;
+    width: 150px;
+    height: 100px;
+	font-family: Times, serif;
+    font-size: 14px;}
+
+.static {
+    background-color: blueviolet;
+    position: static;
+}
+
+.rel1 {
+    position: relative;
+    background-color:darkred;
+}
+
+.rel2 {
+    position: relative;
+    left: 30px;
+    top: -30px;
+    background-color: peru;
+}
+
+.relpar {
+    width: 450px;
+    height: 300px;
+    position: relative; 
+    background-color: indianred;
+}
+
+.relch {
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    top: 100px;
+	right: 0px;
+    background-color: indigo;
+}
+
+.fixed {
+    width:fit-content;
+    height: 90px;
+    position: fixed;
+	right: 0px;
+    bottom: 0px;
+    background-color: forestgreen;
+}

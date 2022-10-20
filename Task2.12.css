@@ -1,0 +1,25 @@
+*{
+	margin: 0px;	}
+.container {
+	position: absolute;
+    display: flex;	
+    flex-wrap: wrap;
+	border: solid 2px forestgreen;
+	font-family: Times ,serif;
+    font-size: 16px;
+	background-color: aqua;
+	margin: 7px;	
+}
+.content {	
+    margin-right: auto;
+	width: 70%;
+	background-color: darkgray;
+}
+.c1{
+	width: 29%;
+	padding-left: 5px;
+	padding-top: 15px;	
+	padding-bottom: 15px;
+    margin-right: 5px;	 
+	height: fit-content;
+	background-color: bisque}

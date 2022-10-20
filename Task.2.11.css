@@ -1,0 +1,12 @@
+*{margin:0;}
+.container {
+    display: flex;
+	font-family: Times, serif;
+	background-color: aqua;
+	border: solid 2px forestgreen;
+	margin: 7px;	
+}
+
+.img  {  
+    margin-left: auto; 
+   }

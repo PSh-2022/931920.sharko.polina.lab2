@@ -1,0 +1,16 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+	font-family: Times ,serif;
+}
+
+.content {
+	width: 600px;
+	color: white;
+	background-color: blue;	
+    grid-column: 2;
+}
+.img  {
+    float: right;  
+    margin: 0 0 20px 20px; 
+   }

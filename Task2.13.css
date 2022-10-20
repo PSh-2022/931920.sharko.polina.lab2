@@ -1,0 +1,28 @@
+*{
+	margin: 0px;	}
+.container {
+	position: absolute;
+    display: grid;
+    grid-template-columns: 25% 75%;
+	border: solid 2px forestgreen;
+	font-family: Times ,serif;
+    font-size: 14px;
+	background-color: aqua;
+	margin: 7px;	
+}
+.content {	
+    grid-column: 2;
+	background-color: darkgray;
+}
+.c1{
+    grid-column: 1;
+	padding-left: 5px;
+	padding-top: 15px;	
+	padding-bottom: 15px; 
+	height: fit-content;
+	background-color: bisque}
+.img  {  
+    margin-right: auto; 	
+    width: 50%;
+    float: right;
+   }
